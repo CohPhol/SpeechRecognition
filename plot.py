@@ -1,9 +1,7 @@
 import wave
-import constant
-from scipy.io import wavfile
 import matplotlib.pyplot as plt
 import numpy as np
-
+import constant
 
 # Open wav file
 obj = wave.open(constant.file_path_recordings + constant.file_name_wav, "rb")

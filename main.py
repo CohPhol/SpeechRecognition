@@ -1,10 +1,7 @@
-from lib2to3.pytree import convert
-import wave
-import constant
-import pyaudio
-import api as api
 import speech_recognition as sr
 from word2number import w2n
+
+import constant
 
 # Create variable to have speech recognition
 recording = sr.Recognizer()
